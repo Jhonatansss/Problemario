@@ -21,7 +21,7 @@ public class LeerArchivo {
             lector.close();
         } catch (FileNotFoundException e) {
 
-            System.err.println("Archivo no encontrado. Verifica la ruta y el nombre del archivo.");
+            System.err.println("Archivo no encontrado. Verifica la ruta y el nombre ");
         } catch (IOException e) {
 
             System.err.println("Error de entrada/salida al leer el archivo.");
